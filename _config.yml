@@ -1,0 +1,27 @@
+title: DAESHU J
+description: Jekyll theme test for my blog
+
+url: https://daeshu.github.com/j
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: kramdown
+highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 5
+
+navigation:
+ - title: Inicio
+   url: /index.html
+ - title: Acerca de
+   url: /about
+ - title: Contacto
+   url: /contact
+
+social:
+   github: daeshu
+   twitter: DanielEscobarW
+   email: daniel@escobar.eu.org
+
+google_analytics: "xxx"
